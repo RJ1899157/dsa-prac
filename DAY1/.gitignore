@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Compiled object files & dSYM
+*.o
+*.dylib
+*.so
+*.exe
+*.out
+*.class
+
+# dSYM folders produced by Xcode
+*.dSYM/
+
+# C++ build artifacts
+build/
+
+# VS Code
+.vscode/
+
+# Ignore binary executables in the repo root
+ADD
+checkevenodd
+hello
+sumofNO
