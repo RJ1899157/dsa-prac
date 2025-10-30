@@ -1,0 +1,5 @@
+•	Learned how to write and run basic C++ programs.
+•	Practiced variables, loops, and conditionals.
+•	Set up VS Code and MinGW compiler.
+•	Learned to use Git & GitHub for version control.
+•	Completed 25% of the Udemy C++ course.
