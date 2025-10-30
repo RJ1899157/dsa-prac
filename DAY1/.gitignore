@@ -1,25 +1,46 @@
-# macOS
-.DS_Store
-
-# Compiled object files & dSYM
-*.o
-*.dylib
-*.so
-*.exe
+# Ignore build and compiled files
 *.out
-*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
 
-# dSYM folders produced by Xcode
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore debug and profiling files
 *.dSYM/
+*.ipch/
+*.pdb
+*.idb
 
-# C++ build artifacts
-build/
+# Ignore build and release directories
+/build/
+/bin/
+/debug/
+/release/
 
-# VS Code
+# Ignore VS Code settings and workspaces
 .vscode/
+*.code-workspace
 
-# Ignore binary executables in the repo root
-ADD
-checkevenodd
-hello
-sumofNO
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and temporary files
+*.log
+*~
+*.swp
+*.tmp
+
+# Ignore CMake files if you use CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
